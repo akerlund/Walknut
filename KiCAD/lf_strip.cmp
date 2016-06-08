@@ -1,0 +1,353 @@
+Cmp-Mod V01 Created by Cvpcb (2015-02-24 BZR 5451)-product   date = mån  9 mar 2015 16:58:33
+
+BeginCmp
+TimeStamp = /54FE2015;
+Reference = J1;
+ValeurCmp = HEADER_3;
+IdModule  = w_pin_strip:pin_strip_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FDA2EE;
+Reference = J2;
+ValeurCmp = HEADER_7;
+IdModule  = w_pin_strip:pin_strip_7;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FDA3CA;
+Reference = J3;
+ValeurCmp = HEADER_7;
+IdModule  = w_pin_strip:pin_strip_7;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FE1ED7;
+Reference = J4;
+ValeurCmp = HEADER_3;
+IdModule  = w_pin_strip:pin_strip_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FDE8EA;
+Reference = J5;
+ValeurCmp = HEADER_2;
+IdModule  = w_pin_strip:pin_strip_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FE2044;
+Reference = J6;
+ValeurCmp = HEADER_3;
+IdModule  = w_pin_strip:pin_strip_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F4D7CC;
+Reference = O1;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F536B8;
+Reference = O2;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53894;
+Reference = O3;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F538B0;
+Reference = O4;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53B95;
+Reference = O5;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53BB4;
+Reference = O6;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53BCF;
+Reference = O7;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53BEA;
+Reference = O8;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55215;
+Reference = O9;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55238;
+Reference = O10;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55253;
+Reference = O11;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F5526E;
+Reference = O12;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55289;
+Reference = O13;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F552A4;
+Reference = O14;
+ValeurCmp = ITR8307/TR8;
+IdModule  = freaquency:w_freaquency_smd_opto_ITR8307;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FE135D;
+Reference = Q1;
+ValeurCmp = FET_N_DGS;
+IdModule  = w_smd_trans:sot223;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F4F0B2;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F51261;
+Reference = R2;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F536BE;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F536C7;
+Reference = R4;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F5389A;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F538A3;
+Reference = R6;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F538B6;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F538BE;
+Reference = R8;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53B9B;
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53BA7;
+Reference = R10;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53BBA;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53BC2;
+Reference = R12;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53BD5;
+Reference = R13;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53BDD;
+Reference = R14;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53BF0;
+Reference = R15;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F53BF8;
+Reference = R16;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F5521B;
+Reference = R17;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F5522B;
+Reference = R18;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F5523E;
+Reference = R19;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55246;
+Reference = R20;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55259;
+Reference = R21;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55261;
+Reference = R22;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55274;
+Reference = R23;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F5527C;
+Reference = R24;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F5528F;
+Reference = R25;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55297;
+Reference = R26;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F552AA;
+Reference = R27;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F552B2;
+Reference = R28;
+ValeurCmp = 150;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F6ECC7;
+Reference = R30;
+ValeurCmp = R;
+IdModule  = w_smd_resistors:r_0603;
+EndCmp
+
+EndListe

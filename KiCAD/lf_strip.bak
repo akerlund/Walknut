@@ -1,0 +1,1059 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:w_freaquency
+LIBS:w_analog
+LIBS:w_device
+LIBS:w_logic
+LIBS:w_memory
+LIBS:w_microcontrollers
+LIBS:w_opto
+LIBS:w_relay
+LIBS:w_rtx
+LIBS:w_transistor
+LIBS:w_connectors
+LIBS:$lf_strip-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ITR8307/TR8 O1
+U 1 1 54F4D7CC
+P 10150 2150
+F 0 "O1" H 10350 1750 60  0000 C CNN
+F 1 "ITR8307/TR8" V 9950 2250 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 10150 2150 60  0001 C CNN
+F 3 "" H 10150 2150 60  0000 C CNN
+	1    10150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 54F4F0B2
+P 10250 1250
+F 0 "R1" V 10150 1250 50  0000 C CNN
+F 1 "10k" V 10257 1251 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 10180 1250 30  0001 C CNN
+F 3 "" H 10250 1250 30  0000 C CNN
+	1    10250 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 11500 3400 0    60   Input ~ 0
+ADC10
+Text GLabel 12150 3400 0    60   Input ~ 0
+ADC11
+Text GLabel 12800 3400 0    60   Input ~ 0
+ADC12
+Text GLabel 13450 3400 0    60   Input ~ 0
+ADC13
+Text GLabel 10200 1500 0    60   Input ~ 0
+ADC0
+Text GLabel 10850 3400 0    60   Input ~ 0
+ADC9
+Text GLabel 10850 1500 0    60   Input ~ 0
+ADC1
+Text GLabel 11500 1500 0    60   Input ~ 0
+ADC2
+Text GLabel 12150 1500 0    60   Input ~ 0
+ADC3
+Text GLabel 12800 1500 0    60   Input ~ 0
+ADC4
+Text GLabel 13450 1500 0    60   Input ~ 0
+ADC5
+Text GLabel 14100 1500 0    60   Input ~ 0
+ADC6
+Text GLabel 14750 1500 0    60   Input ~ 0
+ADC7
+Text GLabel 10200 3400 0    60   Input ~ 0
+ADC8
+Text GLabel 10200 2450 3    60   Input ~ 0
+GND
+Text GLabel 10400 1000 3    60   Input ~ 0
+VDD50
+$Comp
+L R R2
+U 1 1 54F51261
+P 10500 2000
+F 0 "R2" V 10580 2000 50  0000 C CNN
+F 1 "150" V 10507 2001 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 10430 2000 30  0001 C CNN
+F 3 "" H 10500 2000 30  0000 C CNN
+	1    10500 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 1500 10250 1550
+Wire Wire Line
+	10500 2250 10500 2450
+Wire Wire Line
+	10500 2450 10350 2450
+Wire Wire Line
+	10250 1500 10200 1500
+$Comp
+L ITR8307/TR8 O2
+U 1 1 54F536B8
+P 10800 2150
+F 0 "O2" H 11000 1750 60  0000 C CNN
+F 1 "ITR8307/TR8" V 10600 2250 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 10800 2150 60  0001 C CNN
+F 3 "" H 10800 2150 60  0000 C CNN
+	1    10800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 54F536BE
+P 10900 1250
+F 0 "R3" V 10800 1250 50  0000 C CNN
+F 1 "10k" V 10907 1251 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 10830 1250 30  0001 C CNN
+F 3 "" H 10900 1250 30  0000 C CNN
+	1    10900 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 10850 2450 3    60   Input ~ 0
+GND
+Text GLabel 11050 1000 3    60   Input ~ 0
+VDD50
+$Comp
+L R R4
+U 1 1 54F536C7
+P 11150 2000
+F 0 "R4" V 11230 2000 50  0000 C CNN
+F 1 "150" V 11157 2001 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 11080 2000 30  0001 C CNN
+F 3 "" H 11150 2000 30  0000 C CNN
+	1    11150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 1500 10900 1550
+Wire Wire Line
+	11150 2250 11150 2450
+Wire Wire Line
+	11150 2450 11000 2450
+Wire Wire Line
+	10900 1500 10850 1500
+$Comp
+L ITR8307/TR8 O3
+U 1 1 54F53894
+P 11450 2150
+F 0 "O3" H 11650 1750 60  0000 C CNN
+F 1 "ITR8307/TR8" V 11250 2250 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 11450 2150 60  0001 C CNN
+F 3 "" H 11450 2150 60  0000 C CNN
+	1    11450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 54F5389A
+P 11550 1250
+F 0 "R5" V 11450 1250 50  0000 C CNN
+F 1 "10k" V 11557 1251 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 11480 1250 30  0001 C CNN
+F 3 "" H 11550 1250 30  0000 C CNN
+	1    11550 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 11500 2450 3    60   Input ~ 0
+GND
+Text GLabel 11700 1000 3    60   Input ~ 0
+VDD50
+$Comp
+L R R6
+U 1 1 54F538A3
+P 11800 2000
+F 0 "R6" V 11880 2000 50  0000 C CNN
+F 1 "150" V 11807 2001 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 11730 2000 30  0001 C CNN
+F 3 "" H 11800 2000 30  0000 C CNN
+	1    11800 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 1500 11550 1550
+Wire Wire Line
+	11800 2250 11800 2450
+Wire Wire Line
+	11800 2450 11650 2450
+Wire Wire Line
+	11550 1500 11500 1500
+$Comp
+L ITR8307/TR8 O4
+U 1 1 54F538B0
+P 12100 2150
+F 0 "O4" H 12300 1750 60  0000 C CNN
+F 1 "ITR8307/TR8" V 11900 2250 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 12100 2150 60  0001 C CNN
+F 3 "" H 12100 2150 60  0000 C CNN
+	1    12100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 54F538B6
+P 12200 1250
+F 0 "R7" V 12100 1250 50  0000 C CNN
+F 1 "10k" V 12207 1251 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 12130 1250 30  0001 C CNN
+F 3 "" H 12200 1250 30  0000 C CNN
+	1    12200 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 12150 2450 3    60   Input ~ 0
+GND
+Text GLabel 12350 1000 3    60   Input ~ 0
+VDD50
+$Comp
+L R R8
+U 1 1 54F538BE
+P 12450 2000
+F 0 "R8" V 12530 2000 50  0000 C CNN
+F 1 "150" V 12457 2001 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 12380 2000 30  0001 C CNN
+F 3 "" H 12450 2000 30  0000 C CNN
+	1    12450 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 1500 12200 1550
+Wire Wire Line
+	12450 2250 12450 2450
+Wire Wire Line
+	12450 2450 12300 2450
+Wire Wire Line
+	12200 1500 12150 1500
+$Comp
+L ITR8307/TR8 O5
+U 1 1 54F53B95
+P 12750 2150
+F 0 "O5" H 12950 1750 60  0000 C CNN
+F 1 "ITR8307/TR8" V 12550 2250 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 12750 2150 60  0001 C CNN
+F 3 "" H 12750 2150 60  0000 C CNN
+	1    12750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 54F53B9B
+P 12850 1250
+F 0 "R9" V 12750 1250 50  0000 C CNN
+F 1 "10k" V 12857 1251 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 12780 1250 30  0001 C CNN
+F 3 "" H 12850 1250 30  0000 C CNN
+	1    12850 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 12800 2450 3    60   Input ~ 0
+GND
+Text GLabel 13000 1000 3    60   Input ~ 0
+VDD50
+$Comp
+L R R10
+U 1 1 54F53BA7
+P 13100 2000
+F 0 "R10" V 13180 2000 50  0000 C CNN
+F 1 "150" V 13107 2001 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 13030 2000 30  0001 C CNN
+F 3 "" H 13100 2000 30  0000 C CNN
+	1    13100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 1500 12850 1550
+Wire Wire Line
+	13100 1000 12850 1000
+Wire Wire Line
+	13100 1000 13100 1750
+Wire Wire Line
+	13100 2250 13100 2450
+Wire Wire Line
+	13100 2450 12950 2450
+Wire Wire Line
+	12850 1500 12800 1500
+$Comp
+L ITR8307/TR8 O6
+U 1 1 54F53BB4
+P 13400 2150
+F 0 "O6" H 13600 1750 60  0000 C CNN
+F 1 "ITR8307/TR8" V 13200 2250 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 13400 2150 60  0001 C CNN
+F 3 "" H 13400 2150 60  0000 C CNN
+	1    13400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 54F53BBA
+P 13500 1250
+F 0 "R11" V 13400 1250 50  0000 C CNN
+F 1 "10k" V 13507 1251 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 13430 1250 30  0001 C CNN
+F 3 "" H 13500 1250 30  0000 C CNN
+	1    13500 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 13450 2450 3    60   Input ~ 0
+GND
+Text GLabel 13650 1000 3    60   Input ~ 0
+VDD50
+$Comp
+L R R12
+U 1 1 54F53BC2
+P 13750 2000
+F 0 "R12" V 13830 2000 50  0000 C CNN
+F 1 "150" V 13757 2001 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 13680 2000 30  0001 C CNN
+F 3 "" H 13750 2000 30  0000 C CNN
+	1    13750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 1500 13500 1550
+Wire Wire Line
+	13750 1000 13500 1000
+Wire Wire Line
+	13750 1000 13750 1750
+Wire Wire Line
+	13750 2250 13750 2450
+Wire Wire Line
+	13750 2450 13600 2450
+Wire Wire Line
+	13500 1500 13450 1500
+$Comp
+L ITR8307/TR8 O7
+U 1 1 54F53BCF
+P 14050 2150
+F 0 "O7" H 14250 1750 60  0000 C CNN
+F 1 "ITR8307/TR8" V 13850 2250 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 14050 2150 60  0001 C CNN
+F 3 "" H 14050 2150 60  0000 C CNN
+	1    14050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 54F53BD5
+P 14150 1250
+F 0 "R13" V 14050 1250 50  0000 C CNN
+F 1 "10k" V 14157 1251 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 14080 1250 30  0001 C CNN
+F 3 "" H 14150 1250 30  0000 C CNN
+	1    14150 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 14100 2450 3    60   Input ~ 0
+GND
+Text GLabel 14300 1000 3    60   Input ~ 0
+VDD50
+$Comp
+L R R14
+U 1 1 54F53BDD
+P 14400 2000
+F 0 "R14" V 14480 2000 50  0000 C CNN
+F 1 "150" V 14407 2001 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 14330 2000 30  0001 C CNN
+F 3 "" H 14400 2000 30  0000 C CNN
+	1    14400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 1500 14150 1550
+Wire Wire Line
+	14400 1000 14150 1000
+Wire Wire Line
+	14400 1000 14400 1750
+Wire Wire Line
+	14400 2250 14400 2450
+Wire Wire Line
+	14400 2450 14250 2450
+Wire Wire Line
+	14150 1500 14100 1500
+$Comp
+L R R15
+U 1 1 54F53BF0
+P 14800 1250
+F 0 "R15" V 14700 1250 50  0000 C CNN
+F 1 "10k" V 14807 1251 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 14730 1250 30  0001 C CNN
+F 3 "" H 14800 1250 30  0000 C CNN
+	1    14800 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 14750 2450 3    60   Input ~ 0
+GND
+Text GLabel 14950 1000 3    60   Input ~ 0
+VDD50
+$Comp
+L R R16
+U 1 1 54F53BF8
+P 15050 2000
+F 0 "R16" V 15130 2000 50  0000 C CNN
+F 1 "150" V 15057 2001 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 14980 2000 30  0001 C CNN
+F 3 "" H 15050 2000 30  0000 C CNN
+	1    15050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 1500 14800 1550
+Wire Wire Line
+	15050 1000 14800 1000
+Wire Wire Line
+	15050 1000 15050 1750
+Wire Wire Line
+	15050 2250 15050 2450
+Wire Wire Line
+	15050 2450 14900 2450
+Wire Wire Line
+	14800 1500 14750 1500
+$Comp
+L ITR8307/TR8 O9
+U 1 1 54F55215
+P 10150 4050
+F 0 "O9" H 10350 3650 60  0000 C CNN
+F 1 "ITR8307/TR8" V 9950 4150 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 10150 4050 60  0001 C CNN
+F 3 "" H 10150 4050 60  0000 C CNN
+	1    10150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 54F5521B
+P 10250 3150
+F 0 "R17" V 10150 3150 50  0000 C CNN
+F 1 "10k" V 10257 3151 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 10180 3150 30  0001 C CNN
+F 3 "" H 10250 3150 30  0000 C CNN
+	1    10250 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 10200 4350 3    60   Input ~ 0
+GND
+Text GLabel 10400 2900 3    60   Input ~ 0
+VDD50
+$Comp
+L R R18
+U 1 1 54F5522B
+P 10500 3900
+F 0 "R18" V 10580 3900 50  0000 C CNN
+F 1 "150" V 10507 3901 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 10430 3900 30  0001 C CNN
+F 3 "" H 10500 3900 30  0000 C CNN
+	1    10500 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 3400 10250 3450
+Wire Wire Line
+	10500 2900 10250 2900
+Wire Wire Line
+	10500 2900 10500 3650
+Wire Wire Line
+	10500 4150 10500 4350
+Wire Wire Line
+	10500 4350 10350 4350
+Wire Wire Line
+	10250 3400 10200 3400
+$Comp
+L ITR8307/TR8 O10
+U 1 1 54F55238
+P 10800 4050
+F 0 "O10" H 11000 3650 60  0000 C CNN
+F 1 "ITR8307/TR8" V 10600 4150 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 10800 4050 60  0001 C CNN
+F 3 "" H 10800 4050 60  0000 C CNN
+	1    10800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R19
+U 1 1 54F5523E
+P 10900 3150
+F 0 "R19" V 10800 3150 50  0000 C CNN
+F 1 "10k" V 10907 3151 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 10830 3150 30  0001 C CNN
+F 3 "" H 10900 3150 30  0000 C CNN
+	1    10900 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 10850 4350 3    60   Input ~ 0
+GND
+Text GLabel 11050 2900 3    60   Input ~ 0
+VDD50
+$Comp
+L R R20
+U 1 1 54F55246
+P 11150 3900
+F 0 "R20" V 11230 3900 50  0000 C CNN
+F 1 "150" V 11157 3901 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 11080 3900 30  0001 C CNN
+F 3 "" H 11150 3900 30  0000 C CNN
+	1    11150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 3400 10900 3450
+Wire Wire Line
+	11150 2900 10900 2900
+Wire Wire Line
+	11150 2900 11150 3650
+Wire Wire Line
+	11150 4150 11150 4350
+Wire Wire Line
+	11150 4350 11000 4350
+Wire Wire Line
+	10900 3400 10850 3400
+$Comp
+L ITR8307/TR8 O11
+U 1 1 54F55253
+P 11450 4050
+F 0 "O11" H 11650 3650 60  0000 C CNN
+F 1 "ITR8307/TR8" V 11250 4150 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 11450 4050 60  0001 C CNN
+F 3 "" H 11450 4050 60  0000 C CNN
+	1    11450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R21
+U 1 1 54F55259
+P 11550 3150
+F 0 "R21" V 11450 3150 50  0000 C CNN
+F 1 "10k" V 11557 3151 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 11480 3150 30  0001 C CNN
+F 3 "" H 11550 3150 30  0000 C CNN
+	1    11550 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 11500 4350 3    60   Input ~ 0
+GND
+Text GLabel 11700 2900 3    60   Input ~ 0
+VDD50
+$Comp
+L R R22
+U 1 1 54F55261
+P 11800 3900
+F 0 "R22" V 11880 3900 50  0000 C CNN
+F 1 "150" V 11807 3901 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 11730 3900 30  0001 C CNN
+F 3 "" H 11800 3900 30  0000 C CNN
+	1    11800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 3400 11550 3450
+Wire Wire Line
+	11800 2900 11550 2900
+Wire Wire Line
+	11800 2900 11800 3650
+Wire Wire Line
+	11800 4150 11800 4350
+Wire Wire Line
+	11800 4350 11650 4350
+Wire Wire Line
+	11550 3400 11500 3400
+$Comp
+L ITR8307/TR8 O12
+U 1 1 54F5526E
+P 12100 4050
+F 0 "O12" H 12300 3650 60  0000 C CNN
+F 1 "ITR8307/TR8" V 11900 4150 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 12100 4050 60  0001 C CNN
+F 3 "" H 12100 4050 60  0000 C CNN
+	1    12100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R23
+U 1 1 54F55274
+P 12200 3150
+F 0 "R23" V 12100 3150 50  0000 C CNN
+F 1 "10k" V 12207 3151 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 12130 3150 30  0001 C CNN
+F 3 "" H 12200 3150 30  0000 C CNN
+	1    12200 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 12150 4350 3    60   Input ~ 0
+GND
+Text GLabel 12350 2900 3    60   Input ~ 0
+VDD50
+$Comp
+L R R24
+U 1 1 54F5527C
+P 12450 3900
+F 0 "R24" V 12530 3900 50  0000 C CNN
+F 1 "150" V 12457 3901 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 12380 3900 30  0001 C CNN
+F 3 "" H 12450 3900 30  0000 C CNN
+	1    12450 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 3400 12200 3450
+Wire Wire Line
+	12450 2900 12200 2900
+Wire Wire Line
+	12450 2900 12450 3650
+Wire Wire Line
+	12450 4150 12450 4350
+Wire Wire Line
+	12450 4350 12300 4350
+Wire Wire Line
+	12200 3400 12150 3400
+$Comp
+L ITR8307/TR8 O13
+U 1 1 54F55289
+P 12750 4050
+F 0 "O13" H 12950 3650 60  0000 C CNN
+F 1 "ITR8307/TR8" V 12550 4150 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 12750 4050 60  0001 C CNN
+F 3 "" H 12750 4050 60  0000 C CNN
+	1    12750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R25
+U 1 1 54F5528F
+P 12850 3150
+F 0 "R25" V 12750 3150 50  0000 C CNN
+F 1 "10k" V 12857 3151 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 12780 3150 30  0001 C CNN
+F 3 "" H 12850 3150 30  0000 C CNN
+	1    12850 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 12800 4350 3    60   Input ~ 0
+GND
+Text GLabel 13000 2900 3    60   Input ~ 0
+VDD50
+$Comp
+L R R26
+U 1 1 54F55297
+P 13100 3900
+F 0 "R26" V 13180 3900 50  0000 C CNN
+F 1 "150" V 13107 3901 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 13030 3900 30  0001 C CNN
+F 3 "" H 13100 3900 30  0000 C CNN
+	1    13100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 3400 12850 3450
+Wire Wire Line
+	13100 2900 12850 2900
+Wire Wire Line
+	13100 2900 13100 3650
+Wire Wire Line
+	13100 4150 13100 4350
+Wire Wire Line
+	13100 4350 12950 4350
+Wire Wire Line
+	12850 3400 12800 3400
+$Comp
+L ITR8307/TR8 O14
+U 1 1 54F552A4
+P 13400 4050
+F 0 "O14" H 13600 3650 60  0000 C CNN
+F 1 "ITR8307/TR8" V 13200 4150 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 13400 4050 60  0001 C CNN
+F 3 "" H 13400 4050 60  0000 C CNN
+	1    13400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R27
+U 1 1 54F552AA
+P 13500 3150
+F 0 "R27" V 13400 3150 50  0000 C CNN
+F 1 "10k" V 13507 3151 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 13430 3150 30  0001 C CNN
+F 3 "" H 13500 3150 30  0000 C CNN
+	1    13500 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 13450 4350 3    60   Input ~ 0
+GND
+Text GLabel 13650 2900 3    60   Input ~ 0
+VDD50
+$Comp
+L R R28
+U 1 1 54F552B2
+P 13750 3900
+F 0 "R28" V 13830 3900 50  0000 C CNN
+F 1 "150" V 13757 3901 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 13680 3900 30  0001 C CNN
+F 3 "" H 13750 3900 30  0000 C CNN
+	1    13750 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 3400 13500 3450
+Wire Wire Line
+	13750 2900 13500 2900
+Wire Wire Line
+	13750 2900 13750 3650
+Wire Wire Line
+	13750 4150 13750 4350
+Wire Wire Line
+	13750 4350 13600 4350
+Wire Wire Line
+	13500 3400 13450 3400
+Connection ~ 10150 2450
+Wire Wire Line
+	8850 1850 9300 1850
+Wire Wire Line
+	9150 1850 9150 1500
+Text GLabel 8850 2550 2    60   Input ~ 0
+GND
+Wire Wire Line
+	8550 2050 8500 2050
+Text GLabel 8500 2050 0    60   Input ~ 0
+SENS_NFET
+$Comp
+L R R30
+U 1 1 54F6ECC7
+P 8550 2300
+F 0 "R30" V 8630 2300 50  0000 C CNN
+F 1 "R" V 8557 2301 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 8480 2300 30  0001 C CNN
+F 3 "" H 8550 2300 30  0000 C CNN
+	1    8550 2300
+	1    0    0    -1  
+$EndComp
+Text Label 9150 1500 2    60   ~ 0
+MOS_DRAIN
+Wire Wire Line
+	8850 2150 8850 2550
+Wire Wire Line
+	8850 2550 8550 2550
+Text Label 10050 2550 3    60   ~ 0
+MOS_DRAIN
+Wire Wire Line
+	12450 1000 12450 1750
+Wire Wire Line
+	12450 1000 12200 1000
+Wire Wire Line
+	11800 1000 11550 1000
+Wire Wire Line
+	11800 1000 11800 1750
+Wire Wire Line
+	10500 1000 10250 1000
+Wire Wire Line
+	11150 1000 10900 1000
+Wire Wire Line
+	11150 1000 11150 1750
+Wire Wire Line
+	10500 1000 10500 1750
+Text Label 10700 2550 3    60   ~ 0
+MOS_DRAIN
+Text Label 11350 2550 3    60   ~ 0
+MOS_DRAIN
+Text Label 12000 2550 3    60   ~ 0
+MOS_DRAIN
+Text Label 12650 2550 3    60   ~ 0
+MOS_DRAIN
+Text Label 13300 2550 3    60   ~ 0
+MOS_DRAIN
+Text Label 13950 2550 3    60   ~ 0
+MOS_DRAIN
+Text Label 14600 2550 3    60   ~ 0
+MOS_DRAIN
+Text Label 10050 4450 3    60   ~ 0
+MOS_DRAIN
+Text Label 10700 4450 3    60   ~ 0
+MOS_DRAIN
+Text Label 11350 4450 3    60   ~ 0
+MOS_DRAIN
+Text Label 12000 4450 3    60   ~ 0
+MOS_DRAIN
+Text Label 12650 4450 3    60   ~ 0
+MOS_DRAIN
+Text Label 13300 4450 3    60   ~ 0
+MOS_DRAIN
+Wire Wire Line
+	10050 2550 10050 2450
+Wire Wire Line
+	10150 2450 10200 2450
+Wire Wire Line
+	10700 2550 10700 2450
+Wire Wire Line
+	10800 2450 10850 2450
+Wire Wire Line
+	11500 2450 11450 2450
+Wire Wire Line
+	11350 2450 11350 2550
+Wire Wire Line
+	12150 2450 12100 2450
+Wire Wire Line
+	12000 2450 12000 2550
+Wire Wire Line
+	12750 2450 12800 2450
+Wire Wire Line
+	12650 2550 12650 2450
+Wire Wire Line
+	13300 2450 13300 2550
+Wire Wire Line
+	13400 2450 13450 2450
+Wire Wire Line
+	13950 2450 13950 2550
+Wire Wire Line
+	14050 2450 14100 2450
+$Comp
+L ITR8307/TR8 O8
+U 1 1 54F53BEA
+P 14700 2150
+F 0 "O8" H 14900 1750 60  0000 C CNN
+F 1 "ITR8307/TR8" V 14500 2250 60  0000 C CNN
+F 2 "freaquency:w_freaquency_smd_opto_ITR8307" H 14700 2150 60  0001 C CNN
+F 3 "" H 14700 2150 60  0000 C CNN
+	1    14700 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14600 2450 14600 2550
+Wire Wire Line
+	14700 2450 14750 2450
+Wire Wire Line
+	10050 4350 10050 4450
+Wire Wire Line
+	10150 4350 10200 4350
+Wire Wire Line
+	10700 4350 10700 4450
+Wire Wire Line
+	10800 4350 10850 4350
+Wire Wire Line
+	11350 4350 11350 4450
+Wire Wire Line
+	11450 4350 11500 4350
+Wire Wire Line
+	12000 4350 12000 4450
+Wire Wire Line
+	12100 4350 12150 4350
+Wire Wire Line
+	12650 4350 12650 4450
+Wire Wire Line
+	12750 4350 12800 4350
+Wire Wire Line
+	13300 4350 13300 4450
+Wire Wire Line
+	13450 4350 13400 4350
+$Comp
+L HEADER_7 J2
+U 1 1 54FDA2EE
+P 5000 1150
+F 0 "J2" H 5000 1550 60  0000 C CNN
+F 1 "HEADER_7" V 5200 1150 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_7" H 5000 1150 60  0001 C CNN
+F 3 "" H 5000 1150 60  0000 C CNN
+	1    5000 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HEADER_7 J3
+U 1 1 54FDA3CA
+P 6100 1150
+F 0 "J3" H 6100 1550 60  0000 C CNN
+F 1 "HEADER_7" V 6300 1150 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_7" H 6100 1150 60  0001 C CNN
+F 3 "" H 6100 1150 60  0000 C CNN
+	1    6100 1150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4700 1350 3    60   Input ~ 0
+ADC0
+Text GLabel 4800 1350 3    60   Input ~ 0
+ADC1
+Text GLabel 4900 1350 3    60   Input ~ 0
+ADC2
+Text GLabel 5000 1350 3    60   Input ~ 0
+ADC3
+Text GLabel 5100 1350 3    60   Input ~ 0
+ADC4
+Text GLabel 5200 1350 3    60   Input ~ 0
+ADC5
+Text GLabel 5300 1350 3    60   Input ~ 0
+ADC6
+Text GLabel 6000 1350 3    60   Input ~ 0
+ADC9
+Text GLabel 5800 1350 3    60   Input ~ 0
+ADC7
+Text GLabel 5900 1350 3    60   Input ~ 0
+ADC8
+Text GLabel 6100 1350 3    60   Input ~ 0
+ADC10
+Text GLabel 6200 1350 3    60   Input ~ 0
+ADC11
+Text GLabel 6300 1350 3    60   Input ~ 0
+ADC12
+Text GLabel 6400 1350 3    60   Input ~ 0
+ADC13
+Text GLabel 5300 2300 0    60   Input ~ 0
+VDD50
+Text GLabel 5300 2200 0    60   Input ~ 0
+GND
+Text GLabel 5300 2400 0    60   Input ~ 0
+SENS_NFET
+Text Label 5150 3150 0    60   ~ 0
+MOS_DRAIN
+Wire Wire Line
+	5400 2900 5150 2900
+Wire Wire Line
+	5150 2900 5150 3300
+Wire Wire Line
+	5050 2800 5050 3300
+Wire Wire Line
+	5050 2800 5400 2800
+Text GLabel 5050 2800 0    60   Input ~ 0
+VDD50
+Wire Wire Line
+	5300 2200 5400 2200
+Wire Wire Line
+	5400 2300 5300 2300
+Wire Wire Line
+	5300 2400 5400 2400
+Wire Wire Line
+	6400 1350 6400 1250
+Wire Wire Line
+	6300 1350 6300 1250
+Wire Wire Line
+	6200 1350 6200 1250
+Wire Wire Line
+	6100 1350 6100 1250
+Wire Wire Line
+	6000 1250 6000 1350
+Wire Wire Line
+	5900 1350 5900 1250
+Wire Wire Line
+	5800 1250 5800 1350
+Wire Wire Line
+	5300 1350 5300 1250
+Wire Wire Line
+	5200 1250 5200 1350
+Wire Wire Line
+	5100 1350 5100 1250
+Wire Wire Line
+	5000 1250 5000 1350
+Wire Wire Line
+	4900 1250 4900 1350
+Wire Wire Line
+	4800 1350 4800 1250
+Wire Wire Line
+	4700 1250 4700 1350
+$Comp
+L HEADER_2 J5
+U 1 1 54FDE8EA
+P 9400 2050
+F 0 "J5" H 9450 2250 60  0000 C CNN
+F 1 "HEADER_2" H 9400 1700 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_2" H 9400 2050 60  0001 C CNN
+F 3 "" H 9400 2050 60  0000 C CNN
+	1    9400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 1850 9300 2000
+Connection ~ 9150 1850
+Wire Wire Line
+	9300 2100 9300 2250
+Wire Wire Line
+	9300 2250 8850 2250
+$Comp
+L FET_N_DGS Q1
+U 1 1 54FE135D
+P 8800 2000
+F 0 "Q1" H 8703 2250 70  0000 C CNN
+F 1 "FET_N_DGS" H 8300 2100 60  0000 C CNN
+F 2 "w_smd_trans:sot223" H 8800 2000 60  0001 C CNN
+F 3 "" H 8800 2000 60  0000 C CNN
+	1    8800 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2050 8550 2000
+Wire Wire Line
+	8550 2000 8650 2000
+Connection ~ 8850 2250
+$Comp
+L HEADER_3 J4
+U 1 1 54FE1ED7
+P 5500 2300
+F 0 "J4" H 5500 2500 60  0000 C CNN
+F 1 "HEADER_3" H 5500 2100 60  0000 C CNN
+F 2 "" H 5500 2300 60  0000 C CNN
+F 3 "" H 5500 2300 60  0000 C CNN
+	1    5500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER_3 J1
+U 1 1 54FE2015
+P 5500 2900
+F 0 "J1" H 5500 3100 60  0000 C CNN
+F 1 "HEADER_3" H 5500 2700 60  0000 C CNN
+F 2 "" H 5500 2900 60  0000 C CNN
+F 3 "" H 5500 2900 60  0000 C CNN
+	1    5500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER_3 J6
+U 1 1 54FE2044
+P 5150 3400
+F 0 "J6" H 5150 3600 60  0000 C CNN
+F 1 "HEADER_3" H 5150 3200 60  0000 C CNN
+F 2 "" H 5150 3400 60  0000 C CNN
+F 3 "" H 5150 3400 60  0000 C CNN
+	1    5150 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 3000 5250 3000
+Wire Wire Line
+	5250 3000 5250 3300
+Text Label 5250 3300 0    60   ~ 0
+GND
+$EndSCHEMATC

@@ -1,0 +1,1029 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"i"
+			],
+			[
+				"US",
+				"USART_Init"
+			],
+			[
+				"frame",
+				"frameByte"
+			],
+			[
+				"g",
+				"g"
+			],
+			[
+				"fol",
+				"foldP"
+			],
+			[
+				"to",
+				"toList"
+			],
+			[
+				"pi",
+				"pixeldata"
+			],
+			[
+				"im",
+				"image_data"
+			],
+			[
+				"pr",
+				"prev"
+			],
+			[
+				"n",
+				"next"
+			],
+			[
+				"use",
+				"usart_send_break"
+			],
+			[
+				"usa",
+				"usart_send_blocking"
+			],
+			[
+				"send",
+				"send_byte"
+			],
+			[
+				"usar",
+				"usart_send_break"
+			],
+			[
+				"usart_send",
+				"usart_send_blocking"
+			],
+			[
+				"is",
+				"is_first"
+			],
+			[
+				"GPIO",
+				"GPIO_PUPD_NONE"
+			],
+			[
+				"gpio",
+				"gpio_mode_setup"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.c",
+			"settings":
+			{
+				"buffer_size": 15878,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/akerlund/Dropbox/Projects/Projects/LINEFOLLOWER/STM32/inc/main.h",
+			"settings":
+			{
+				"buffer_size": 1190,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/akerlund/Dropbox/Projects/Projects/LINEFOLLOWER/STM32/Makefile",
+			"settings":
+			{
+				"buffer_size": 1674,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "adc.py",
+			"settings":
+			{
+				"buffer_size": 539,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/akerlund/Dropbox/Projects/Projects/LINEFOLLOWER/Anteckningar.txt",
+			"settings":
+			{
+				"buffer_size": 1921,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_gpio.h",
+			"settings":
+			{
+				"buffer_size": 17163,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_adc.h",
+			"settings":
+			{
+				"buffer_size": 31774,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c",
+			"settings":
+			{
+				"buffer_size": 66540,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h",
+			"settings":
+			{
+				"buffer_size": 50413,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_spi.h",
+			"settings":
+			{
+				"buffer_size": 20112,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dma.h",
+			"settings":
+			{
+				"buffer_size": 28147,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c",
+			"settings":
+			{
+				"buffer_size": 50435,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/inc/STM32F4xx_StdPeriph_Driver/inc/misc.h",
+			"settings":
+			{
+				"buffer_size": 6620,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_usart.h",
+			"settings":
+			{
+				"buffer_size": 17249,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Haskell/Haskell.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"'const uint16_t %s[%s] = {%s}' % (name, size, ','.join(['%i' % round((float(v)/float(size))**gamma * float(ceiling)) for v in range(size)]))",
+			"ceiling=256",
+			"'const uint16_t %s[%s] = {%s}' % (name, size, ','.join(['%i' % round((float(v)/float(size))**gamma * float(ceiling)) for v in range(size)]))",
+			"ceiling=255",
+			"'const uint16_t %s[%s] = {%s}' % (name, size, ','.join(['%i' % round((float(v)/float(size))**gamma * float(ceiling)) for v in range(size)]))",
+			"gamma",
+			"gamma=math.e",
+			"import math",
+			"'const uint16_t %s[%s] = {%s}' % (name, size, ','.join(['%i' % round((float(v)/float(size))**gamma * float(ceiling)) for v in range(size)]))",
+			"size=256",
+			"'const uint16_t %s[%s] = {%s}' % (name, size, ','.join(['%i' % round((float(v)/float(size))**gamma * float(ceiling)) for v in range(size)]))",
+			"name = \"gamma_lut\"",
+			"'const uint16_t %s[%s] = {%s}' % (name, size, ','.join(['%i' % round((float(v)/float(size))**gamma * float(ceiling)) for v in range(size)]))",
+			"'0b'+''.join(reversed('0b11001110'[2:]))",
+			"'0b'+''.join(reversed('0b11001000'[2:]))",
+			"'0b'+''.join(reversed('0b00001110'[2:]))",
+			"'0b'+''.join(reversed('0b00001110'))",
+			"'0b'+''.join(reversed('00001000'))",
+			"''.join(reversed('00001000'))",
+			"reversed('00001000')",
+			"reversed",
+			"reverse",
+			"'00001000'.reverse",
+			"reverse('00001000')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/akerlund/Dropbox/STM32_Test"
+	],
+	"file_history":
+	[
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/src/main.c",
+		"/home/akerlund/Dropbox/Projects/Projects/LINEFOLLOWER/STM32/inc/inits.h",
+		"/home/akerlund/Dropbox/Projects/Projects/LINEFOLLOWER/STM32/src/inits.c",
+		"/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-4-PWM/src/main.c",
+		"/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-4-PWM/Makefile",
+		"/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-4-PWM/inc/main.h",
+		"/home/akerlund/Dropbox/Projects/Projects/LINEFOLLOWER/STM32/inc/main.h",
+		"/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c",
+		"/home/akerlund/Dropbox/Projects/Projects/LINEFOLLOWER/STM32/Makefile",
+		"/home/akerlund/Dropbox/Projects/Projects/LINEFOLLOWER/STM32/src/main.c",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/inc/main.h",
+		"/home/akerlund/Desktop/Model.hs",
+		"/home/akerlund/Dropbox/Chalmers/09 Algoritmer/Assignments/01/A1P2.py",
+		"/home/akerlund/Dropbox/price.py",
+		"/home/akerlund/Desktop/col.py",
+		"/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/Python/seri.py",
+		"/home/akerlund/Dropbox/Chalmers/06 Concurrent Programming/Labb 04/src/channel.erl",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32F407_MEMS/src/main.c",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/Python/sincos.py",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/BufferingNotes.txt",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32F407_MEMS/inc/main.h",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/Makefile",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32F407_MEMS/system_stm32f4xx.c",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32F407_MEMS/inc/STM32F4xx/stm32f4xx.h",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32F407_MEMS/startup_stm32f4xx.S",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/inc/STM32F4xx/stm32f4xx.h",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/system_stm32f4xx.c",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/startup_stm32f4xx.S",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/startup",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32F4xx_AN3988_V1.1.0/system_stm32f4xx.c",
+		"/home/akerlund/Desktop/stat.py",
+		"/home/akerlund/Desktop/import random, statistics",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/Task-4-PWM/src/main.c",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/Task-4-PWM/inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/Task-4-PWM/inc/STM32F4xx/system_stm32f4xx.h",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/Task-4-PWM/system_stm32f4xx.c",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/Task-4-PWM/inc/STM32F4xx/stm32f4xx.h",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/Task-4-PWM/inc/STM32F4xx/stm32f4xx_conf.h",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/Task-4-PWM/stm32_flash.ld",
+		"/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32407_TIMER_INT/src/main.c",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/Makefile",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32407_TIMER_INT/system_stm32f4xx.c",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32407_TIMER_INT/inc/STM32F4xx/system_stm32f4xx.h",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32407_TIMER_INT/inc/STM32F4xx/stm32f4xx_conf.h",
+		"/home/akerlund/Downloads/STM32F4-Discovery_Examples_Official/Project/Peripheral_Examples/TIM_TimeBase/main.c",
+		"/home/akerlund/Downloads/STM32F4xx_DSP_StdPeriph_Lib_V1.3.0/Project/STM32F4xx_StdPeriph_Examples/TIM/TIM_TimeBase/readme.txt",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32407_TIMER_INT/Makefile",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32407_TIMER_INT/inc/main.h",
+		"/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-3-SystemClocks/src/main.c",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dma.h",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/inc/STM32F4xx/system_stm32f4xx.h",
+		"/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx/stm32f4xx.h",
+		"/home/akerlund/Dropbox/Projects/Projects/STM32F407_MEMS/Makefile",
+		"/home/akerlund/Dropbox/Projects/Projects/ACCEL_TEST/STM32/src/main.c",
+		"/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/main.h",
+		"/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/src/main.c",
+		"/home/akerlund/Dropbox/Projects/Projects/ACCEL_TEST/STM32/inc/main.h",
+		"/home/akerlund/Dropbox/Projects/Projects/ACCEL_TEST/STM32/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4_discovery_lis302dl.h",
+		"/home/akerlund/Dropbox/Projects/Projects/ACCEL_TEST/STM32/inc/STM32F4xx_StdPeriph_Driver/src/stm32f4_discovery_lis302dl.c",
+		"/home/akerlund/Dropbox/Projects/Projects/ACCEL_TEST/STM32/inc/STM32F4xx_StdPeriph_Driver/inc/misc.h",
+		"/home/akerlund/Dropbox/Projects/Projects/ACCEL_TEST/STM32/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_usart.h",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c",
+		"/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_spi.h",
+		"/home/akerlund/Dropbox/Projects/Projects/ACCEL_TEST/STM32/Makefile",
+		"/home/akerlund/Dropbox/CRF public/ARM/STM32F4_Projects/STM32_MP3/Makefile",
+		"/home/akerlund/Dropbox/Projects/Projects/ACCEL_TEST/STM32/main_MEMS.c",
+		"/home/akerlund/Downloads/STM32F4_DMA_SPI/cmsis_lib/source/inits.c",
+		"/home/akerlund/Downloads/STM32F4_DMA_SPI/main.c",
+		"/home/akerlund/Dropbox/CRF public/ARM/STM32F4_Projects/STM32_MP3/src/main.c",
+		"/home/akerlund/Dropbox/Projects/Projects/ATMEL/TheLitteCubeTest/TheLitteCubeTest/TheLitteCubeTest.c",
+		"/home/akerlund/Desktop/Untitled Document",
+		"/home/akerlund/Desktop/REPA/LabC.hs",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/usart/usart.c",
+		"/home/akerlund/Dropbox/Programming/Projects/Openlibcm3/16_16/16_16_Array.c",
+		"/home/akerlund/Dropbox/Programming/Projects/1616PIX/examples/stm32/f4/stm32f4-discovery/usart/pixel.c",
+		"/home/akerlund/Dropbox/Programming/Projects/1616PIX/examples/stm32/f4/stm32f4-discovery/usart/usart.c",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/usart/Makefile",
+		"/home/akerlund/Dropbox/Programming/Projects/1616PIX/examples/stm32/f4/stm32f4-discovery/usart/Makefile",
+		"/home/akerlund/Dropbox/Programming/Projects/libopencm3-examples-master/examples/stm32/f4/stm32f4-discovery/usart/Makefile",
+		"/home/akerlund/Dropbox/Programming/Projects/Openlibcm3/16_16/examples/stm32/f4/stm32f4-discovery/Makefile",
+		"/home/akerlund/Desktop/PIXEL_BILDER/gif.py",
+		"/home/akerlund/Dropbox/Programming/Projects/Openlibcm3/16_16/examples/stm32/f4/stm32f4-discovery/stm32f4-discovery.ld",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/Makefile.include",
+		"/home/akerlund/Dropbox/libopencm3-examples/libopencm3/Makefile",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/Makefile.rules",
+		"/home/akerlund/Dropbox/Programming/Projects/Openlibcm3/libopencm3-examples ORI/examples/stm32/f4/stm32f4-discovery/ledkub1/fancyblink.c",
+		"/home/akerlund/Dropbox/Programming/Projects/Openlibcm3/16_16/libopencm3/lib/stm32/f4/spi.c",
+		"/home/akerlund/Dropbox/Programming/Projects/Openlibcm3/16_16/libopencm3/lib/stm32/f4/adc.c",
+		"/home/akerlund/Dropbox/Programming/Projects/Openlibcm3/16_16/libopencm3/include/libopencm3/stm32/spi.h",
+		"/home/akerlund/Dropbox/Programming/Projects/Openlibcm3/16_16/libopencm3/include/libopencm3/stm32/f4/spi.h",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/ledkub1/stuff.py",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/ledkub1/pp.py",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/ledkub1/fancyblink.c",
+		"/home/akerlund/Desktop/seri.py",
+		"/home/akerlund/Desktop/sincos.py",
+		"/home/akerlund/Desktop/gamma.py",
+		"/home/akerlund/Downloads/repa-examples-3.3.1.1/examples/Laplace/src-repa/SolverGet.hs",
+		"/home/akerlund/Desktop/REPA/Report.txt",
+		"/home/akerlund/Dropbox/Chalmers/01 Funktionell Programmering/Lab 3 - Sodoku/Sudoku.hs",
+		"/home/akerlund/Desktop/REPA/repa.hs",
+		"/home/akerlund/Downloads/repa-examples-3.3.1.1/examples/Laplace/src-repa/Main.hs",
+		"/home/akerlund/Downloads/repa-examples-3.3.1.1/examples/Blur/src-repa/Main.hs",
+		"/home/akerlund/Downloads/repa-examples-3.3.1.1/examples/Laplace/src-repa/SolverStencil.hs",
+		"/home/akerlund/Desktop/REPA/RepaExLec514.hs",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/usart/Animations.c",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/usart/Animations.h",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/usart/color.c",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/usart/color.h",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/usart/stm32.c",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/usart/stm32.h",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/usart/gamma.h",
+		"/home/akerlund/Desktop/Linked.c",
+		"/home/akerlund/Desktop/LinkedListC.c",
+		"/home/akerlund/Downloads/Videotutorialsrock/basicshapes/main.cpp",
+		"/home/akerlund/Downloads/Videotutorialsrock/basicshapes/Makefile",
+		"/home/akerlund/Desktop/PIXEL_BILDER/testgrej.html",
+		"/home/akerlund/Downloads/Videotutorialsrock/cube/Makefile",
+		"/home/akerlund/Downloads/repa-examples-3.3.1.1/examples/FFT/FFT2d/src-repa/Main.hs",
+		"/home/akerlund/Dropbox/libopencm3-examples/examples/stm32/f4/stm32f4-discovery/usart.c",
+		"/home/akerlund/Ledalert/Projekt/weather crystal ball/ann3.c",
+		"/home/akerlund/Desktop/tete.py",
+		"/home/akerlund/Ledalert/Projekt/weather crystal ball/test1.py",
+		"/home/akerlund/Downloads/OpenGL Tutorial/basicshapes/main.cpp",
+		"/home/akerlund/Downloads/OpenGL-tutorial_v0014_33/tutorial01_first_window/tutorial01.cpp",
+		"/home/akerlund/Downloads/cube/Makefile"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nr",
+			"nrOfSensors",
+			"nrOfPolations",
+			"nrOfADC",
+			"ADCConvBuff",
+			"a",
+			"BitAction",
+			"setup_GPIO",
+			"GPIO_InitTypeDef",
+			"GPIOD",
+			"ADC_SampleTime_56Cycles",
+			"SMPR",
+			"ADC_SMPR",
+			"ADC_SMPR1",
+			"DMA1_Stream5",
+			"TIM4",
+			"TIM_OC4Init\n",
+			"d",
+			"half",
+			"nytt",
+			"varde",
+			"raknat",
+			"NVIC_InitStructure",
+			"DMA1_Stream2",
+			"DMA_InitStructure",
+			"testBuffer",
+			"outputBuffert",
+			"frameByte",
+			"DMA_Mode_Normal",
+			"0",
+			"<Devilholk>",
+			"                    GPIO_ResetBits(GPIOB, GPIO_Pin_8);\n                    GPIO_ResetBits(GPIOB, GPIO_Pin_0);\n",
+			"GPIO_ResetBits",
+			"\n                    GPIO_SetBits(GPIOB, GPIO_Pin_8);\n                    GPIO_ResetBits(GPIOB, GPIO_Pin_8);\n                    ",
+			"                    GPIO_SetBits(GPIOB, GPIO_Pin_8);\n                    GPIO_ResetBits(GPIOB, GPIO_Pin_8);\n",
+			"                    GPIO_ResetBits(GPIOB, GPIO_Pin_8);\n                    GPIO_ResetBits(GPIOB, GPIO_Pin_0);\n",
+			"GPIO_ResetBits",
+			"\n                    GPIO_SetBits(GPIOB, GPIO_Pin_8);\n                    GPIO_ResetBits(GPIOB, GPIO_Pin_8);\n                    ",
+			"                    GPIO_SetBits(GPIOB, GPIO_Pin_8);\n                    GPIO_ResetBits(GPIOB, GPIO_Pin_8);\n",
+			"arrayIndex",
+			"setup_SPI1_with_DMA2_NVIC",
+			"arrayIndex",
+			"HSE",
+			"8000000",
+			"SPI_CR1",
+			"HSE_VALUE",
+			"PLL",
+			"CR1",
+			"HCLK",
+			"TIM_Prescaler",
+			"DMA2_Stream5_IRQn",
+			"hci",
+			"SYSCLK",
+			"HSE_",
+			"DMA2_Stream5_IRQHandler",
+			"SPI1",
+			"LIS302DL_SendByte",
+			"TIM_TimeBaseStructure",
+			"NVIC_Init",
+			"GPIO_InitStructure",
+			"SPI_I2S_ReceiveData",
+			"setup_SPI1_with_DMA2_NVIC",
+			"DMA_Init",
+			"DMA_MemoryTargetConfig",
+			"cubetable",
+			"DMA_MemoryTargetConfig",
+			"BUFFER_SIZE",
+			"bufferIndex",
+			"updateBuffer",
+			"currentBit",
+			"pp",
+			"DMA1",
+			"DMA_STREAM33",
+			"DMA_STREAM5",
+			"waveform",
+			"++",
+			"from",
+			"ANIMATIONS_H",
+			"read_adc_naiive",
+			"usart_send_blocking",
+			"USART2, ",
+			"alt_func_num",
+			"clock",
+			"GPIO_Mode_Out_",
+			"GPIO_OType_PP",
+			"arm-none-eabi",
+			"sat",
+			"999"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"DMA1_Stream5",
+			"spiTxBuf",
+			" ",
+			"GPIO_InitStruct",
+			"DMA2",
+			"DMA_STREAM3",
+			"DMA_STREAM33"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3938,
+								3938
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/akerlund/Dropbox/Projects/Projects/LINEFOLLOWER/STM32/inc/main.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/akerlund/Dropbox/Projects/Projects/LINEFOLLOWER/STM32/Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								689
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "adc.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/akerlund/Dropbox/Projects/Projects/LINEFOLLOWER/Anteckningar.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1921,
+								1921
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_gpio.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3773,
+								3773
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1653.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_adc.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9023,
+								9023
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2776.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30161,
+								30161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4397.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44839,
+								44839
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 120.0,
+						"translation.y": 18483.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_spi.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7956,
+								7956
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 421.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dma.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22164,
+								22164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7744.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11965,
+								11965
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2970.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/home/akerlund/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/inc/STM32F4xx_StdPeriph_Driver/inc/misc.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								554,
+								554
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/home/akerlund/Dropbox/Projects/Downloads/stm32f4-examples-master/Task-5-SPI/inc/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_usart.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16728,
+								16728
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4231.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.942610652663,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "LineFollow.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/Projects/Projects/PIXEL_ARRAY/STM32/system_stm32f4xx.c"
+			],
+			[
+				"inc/core",
+				"lib/inc/core/core_cm4.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

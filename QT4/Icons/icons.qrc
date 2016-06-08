@@ -1,0 +1,42 @@
+<RCC>
+  <qresource prefix="allIcons">
+    <file>glossy-3d-blue-orbs2-111-icon.png</file>
+    <file>3D-icon.png</file>
+    <file>6596862101_e9c2bbd0f1_b.jpg</file>
+    <file>Apps-Bluetooth-Active-icon.png</file>
+    <file>available_offline.png</file>
+    <file>available.png</file>
+    <file>bluetooth-icon.png</file>
+    <file>Bluetooth-icon (1).png</file>
+    <file>Button-Refresh-icon.png</file>
+    <file>Color-MS-Excel-icon.png</file>
+    <file>Control-Panel-icon.png</file>
+    <file>Control-Panel-icon (1).png</file>
+    <file>development-tools-icon.png</file>
+    <file>Downloads-1-icon.png</file>
+    <file>Downloads-2-icon.png</file>
+    <file>Dragon-Radar-icon.png</file>
+    <file>glossy-3d-blue-orbs2-040-icon.png</file>
+    <file>glossy-3d-blue-orbs2-043-icon.png</file>
+    <file>glossy-3d-blue-orbs2-044-icon.png</file>
+    <file>glossy-3d-blue-orbs2-045-icon.png</file>
+    <file>glossy-3d-blue-orbs2-053-icon.png</file>
+    <file>glossy-3d-blue-orbs2-096-icon.png</file>
+    <file>glossy-3d-blue-orbs2-103-icon.png</file>
+    <file>glossy-3d-blue-orbs2-118-icon.png</file>
+    <file>glossy-3d-blue-orbs2-120-icon.png</file>
+    <file>graph-2-icon.png</file>
+    <file>graph-icon.png</file>
+    <file>graph-icon (1).png</file>
+    <file>icons.qrc</file>
+    <file>Industry-Infrared-Sensor-icon.png</file>
+    <file>media-playback-start.png</file>
+    <file>media-playback-stop.png</file>
+    <file>radar-icon.png</file>
+    <file>radar-icon (1).png</file>
+    <file>Settings-icon.png</file>
+    <file>Transport-Engine-icon.png</file>
+    <file>Transport-Piston-icon.png</file>
+    <file>walknut_c1.png</file>
+  </qresource>
+</RCC>
